@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Área do Professor</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">Professor</a></h1>
+					<p>Bem-vindo Doutor(a)</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#four">Selecionar Cursos a Ministrar</a></li>
+						<li><a href="#five">Registrar Notas</a></li>
+						<li><a href="/c-registration/login/login.html">Sair</a></li>
+						
+					</ul>
+				</nav>
+			
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="images/banner.jpg" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>Cursos</h2>	
+									</header>		
+								</div>
+							</section>					
+						<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3>Selecionar Cursos a Ministrar</h3>
+									
+									<form method="post" action="#">
+										<div class="row gtr-uniform">
+						
+											<div>
+												<input type="checkbox" id="pw" name="pw" value="pw">
+												<label for="pw"> Programação Web</label><br>
+												<input type="checkbox" id="matbasic" name="matbasic" value="matbasic">
+												<label for="matbasic"> Matemática Básica</label><br>
+												<input type="checkbox" id="analise" name="analise" value="analise">
+												<label for="analise"> Análise Orientada a Objetos</label><br>
+												<input type="checkbox" id="desen" name="desen" value="desen">
+												<label for="desen"> Desenvolvimento de Software</label><br>
+												<input type="checkbox" id="comp" name="comp" value="comp">
+												<label for="comp"> Computação Móvel (EAD)</label><br>
+												<input type="checkbox" id="temas" name="temas" value="temas">
+												<label for="temas"> Temas Tecnológicos em Programação (EAD</label><br>
+											</div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" class="primary" value="Confirmar" /></li>
+													<li><input type="reset" value="Limpar" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</div>
+							</section>
+							<section id="five">
+								<div class="container">
+									<h3>Registrar Notas</h3>
+									
+									<ul class="feature-icons">
+										<li class="icon solid fa-code"><h4>Programação Web</h4></li>
+										<form method="get" action="envio_dados.php">
+										    <input type="text" name="id" placeholder="Insira a ID do aluno">
+										    <input type="text" name="nota" placeholder="Insira a nota">
+										    <input type="button" name="submeter" value="Submeter">
+										</form>
+										<li class="icon solid fa-cubes"><h4>Matemática Básica</h4><br></li>
+										<form method="get" action="envio_dados.php">
+										    <input type="text" name="id" placeholder="Insira a ID do aluno">
+										    <input type="text" name="nota" placeholder="Insira a nota">
+										    <input type="button" name="submeter" value="Submeter">
+										</form>
+										<li class="icon solid fa-book"><h4>Análise Orientada a Objetos</h4><br></li>
+										<form method="get" action="envio_dados.php">
+										    <input type="text" name="id" placeholder="Insira a ID do aluno">
+										    <input type="text" name="nota" placeholder="Insira a nota">
+										    <input type="button" name="submeter" value="Submeter">
+										</form>
+										<li class="icon solid fa-coffee"><h4>Desenvolvimento de Software</h4><br></li>
+										<form method="get" action="envio_dados.php">
+										    <input type="text" name="id" placeholder="Insira a ID do aluno">
+										    <input type="text" name="nota" placeholder="Insira a nota">
+										    <input type="button" name="submeter" value="Submeter">
+										</form>
+										<li class="icon solid fa-code"><h4>Computação Móvel (EAD)</h4><br></li>
+										<form method="get" action="envio_dados.php">
+										    <input type="text" name="id" placeholder="Insira a ID do aluno">
+										    <input type="text" name="notal" placeholder="Insira a nota">
+										    <input type="button" name="submeter" value="Submeter">
+										</form>
+										<li class="icon solid fa-users"><h4>Temas Tecnológicos em Programação (EAD)</h4><br></li>
+										<form method="get" action="envio_dados.php">
+										    <input type="text" name="id" placeholder="Insira a ID do aluno">
+										    <input type="text" name="nota" placeholder="Insira a nota">
+										    <input type="button" name="submeter" value="Submeter">
+										</form>
+									</ul>
+								</div>
+							</section>
+					</div>
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; SRC. Todos direitos reservados.</li><li>Design: <a href="http://html5up.net">Grupo SRC</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

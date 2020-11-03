@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Área do Administrador</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">Administrador</a></h1>
+					<p>Bem vindo(a) à area de gestão</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">Cadastrar Acesso</a></li>
+						<li><a href="#two">Visualizar Cadastros</a></li>
+						<li><a href="#three">Editar usuários</a></li>
+						<li><a href="/c-registration/login/login.html">Sair</a></li>
+						
+					</ul>
+				</nav>
+			
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+							<div class="container">
+								<h3>Cadastrar Acesso</h3>
+								<form method="post" action="#">
+									<div class="row gtr-uniform">
+									<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Nome" /></div>
+									<div class="col-6 col-12-xsmall"><input type="text" name="datanasc" id="datanasc" placeholder="Data de Nascimento" /></div>
+									<div class="col-6 col-12-xsmall"><input type="text" name="numprev" id="numprev" placeholder="Número de Previdência Social" /></div>
+									<div class="col-6 col-12-xsmall"><input type="text" name="status" id="status" placeholder="Status" /></div>
+									<div class="col-6 col-12-xsmall"><input type="text" name="datagrad" id="datagrad" placeholder="Data da Graduação" /></div>
+									<div class="col-6 col-12-xsmall"><input type="text" name="depart" id="depart" placeholder="Departamento" /></div>
+									<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+									<div class="col-12"><input type="password" name="password" id="password" placeholder="Senha" /></div>
+									<div class="col-12">
+									<select class="form-control" id="perfilSelector">
+									  <option>Aluno</option>
+									  <option>Professor</option>
+									  <option>Administrador</option>
+									</select>	
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" class="primary" value="Confirmar Cadastro" /></li>
+											<li><input type="reset" value="Limpar Dados" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3>Visualizar Cadastros</h3>
+									
+									 <main role="main">
+									    <div class="jumbotron">
+									      <div class="col-sm-8 mx-auto">
+									        <table class="table">
+									          <thead>
+									            <tr>
+									              <th scope="col">ID</th>
+									              <th scope="col">Nome</th>
+									              <th scope="col">Email</th>
+									              <th scope="col">Perfil</th>
+									            </tr>
+									          </thead>
+									          <tbody>
+									            <tr>
+									              <th scope="row">1</th>
+									              <td>André</td>
+									              <td>andre@gmail.com</td>
+									              <td>Aluno</td>
+									            </tr>
+									            <tr>
+									              <th scope="row">2</th>
+									              <td>Oberdan</td>
+									              <td>oberdan@area1.edu.br</td>
+									              <td>Professor</td>
+									            </tr>
+									            <tr>
+									              <th scope="row">3</th>
+									              <td>Ellen</td>
+									              <td>ellen@hotmail.com</td>
+									              <td>Aluno</td>
+									            </tr>
+									          </tbody>
+									        </table>
+									      </div>
+									    </div>
+									  </main>
+								</div>
+							</section>
+							
+							<section id="three">
+							<div class="container">
+								<h3>Editar Usuários</h3>
+								<form method="post" action="#">
+									<div class="row gtr-uniform">
+									<div class="col-6 col-12-xsmall"><input type="text" name="id" id="id" placeholder="ID do Usuário" /></div>
+									<div class="col-12">
+										
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" class="primary" value="Modificar Usuário" /></li>
+													
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>	
+					</div>
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; SRC. Todos os direitos reservados.</li><li>Design: <a href="http://html5up.net">Grupo SRC</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
